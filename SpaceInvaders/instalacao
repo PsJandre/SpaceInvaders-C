@@ -1,0 +1,7 @@
+Para rodar o jogo primeiramente é necessario instalar 
+o allegro 5 para compilar o jogo, para instalar o
+allegro digite o seguinte comando no terminal:
+sudo apt install liballegro5-dev
+depois disso para compilar o jogo utilizando o compilador
+gcc do linux digite:
+gcc -o Space.c `pkg-config --libs allegro-5 allegro_image-5 allegro_primitives-5 allegro_font-5 allegro_ttf-5 allegro_audio-5 allegro_acodec-5`
